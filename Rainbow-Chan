@@ -1,0 +1,14 @@
+game:GetService("RunService").Stepped:Connect(function()
+game.Players.LocalPlayer.Character.Stand["Stand Left Arm"].Color = Color3.fromHSV(tick()%5/5,1,1)
+game.Players.LocalPlayer.Character.Stand["Stand Left Arm"].Material = Enum.Material.Neon
+game.Players.LocalPlayer.Character.Stand["Stand Right Arm"].Color = Color3.fromHSV(tick()%5/5,1,1)
+game.Players.LocalPlayer.Character.Stand["Stand Right Arm"].Material = Enum.Material.Neon
+game.Players.LocalPlayer.Character.Stand["Stand Torso"].Color = Color3.fromHSV(tick()%5/5,1,1)
+game.Players.LocalPlayer.Character.Stand["Stand Torso"].Material = Enum.Material.Neon
+game.Players.LocalPlayer.Character.Stand["Stand Head"].Color = Color3.fromHSV(tick()%5/5,1,1)
+game.Players.LocalPlayer.Character.Stand["Stand Head"].Material = Enum.Material.Neon
+game.Players.LocalPlayer.Character.Stand["Stand Right Leg"].Color = Color3.fromHSV(tick()%5/5,1,1)
+game.Players.LocalPlayer.Character.Stand["Stand Right Leg"].Material = Enum.Material.Neon
+game.Players.LocalPlayer.Character.Stand["Stand Left Leg"].Color = Color3.fromHSV(tick()%5/5,1,1)
+game.Players.LocalPlayer.Character.Stand["Stand Left Leg"].Material = Enum.Material.Neon
+end)
