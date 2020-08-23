@@ -1,0 +1,9 @@
+local Brick = game.Players.LocalPlayer.Character.Stand["Stand Right Arm"]
+game.Players.LocalPlayer.Character.Stand["Stand Right Arm"].Material = Enum.Material.Neon
+local speed = 2.3 --Change to speed you want
+while true do
+	for i = 0,1,0.001*speed do
+		Brick.Color = Color3.fromHSV(i,1,1) --creates a color using i
+		wait()
+	end
+end
