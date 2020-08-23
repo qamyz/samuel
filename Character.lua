@@ -1,5 +1,4 @@
-while wait(0.89)
---Just for a unachoring the players body <For a game>
+while wait(0.89) do
 game.Players.LocalPlayer.Character.Head.Anchored = false
 game.Players.LocalPlayer.Character.Torso.Anchored = false
 game.Players.LocalPlayer.Character["Left Arm"].Anchored = false
