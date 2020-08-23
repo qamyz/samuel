@@ -1,4 +1,4 @@
-while wait(0.2) do
+while wait() do
     local ohString1 = "WeakPunch"
     local ohInstance2 = workspace.Entities.coldheck.Stand.StandRarm
     local ohNumber3 = 0.5
